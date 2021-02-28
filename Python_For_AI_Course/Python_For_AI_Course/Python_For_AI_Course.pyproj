@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="conditions_branching.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="expressions_Variables.py">
       <SubType>Code</SubType>
     </Compile>
