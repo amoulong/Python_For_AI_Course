@@ -104,6 +104,47 @@ print("armel"in dict1)
 print(dict1.keys())
 print(dict1.values())
 
+#set (no duplicated items )
+
+set1={"bob","lee", "moul",1,8,8,"lee"}
+print(set1)
+
+#convert a list to a set
+album_list=["bob","thriller","thriller",189]
+print(album_list)
+
+list_set=set(album_list)
+print(list_set)
+
+#Operations in sets
+set1.add("Ebwa")
+print(set1)
+
+set1.remove('lee')
+print(set1)
+
+print("bob" in set1)
+print("lee" in set1)
+
+#maths operations
+#intersection
+
+set_intersect= set1&list_set
+print(set_intersect)
+
+#union
+
+#subset
+print(set1.issubset(list_set))
+
+
+
+
+
+
+
+
+
 
 
 
