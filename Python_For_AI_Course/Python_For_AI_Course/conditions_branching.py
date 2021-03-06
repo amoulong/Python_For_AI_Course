@@ -1,5 +1,6 @@
 #branching
-age=int(input("Enter your age: "))
+#age=int(input("Enter your age: "))
+age=25
 if(age>18):
     print("you can enter")
 elif(age==18):
@@ -38,3 +39,38 @@ while (i<len(range_data)):
     i=i+1
 
 
+
+#functions
+album_rating = [12,13,11,100]
+llen= len(album_rating)
+print("length = ",llen)
+ssum= sum(album_rating)
+print("sum = ",ssum)
+ssorted= sorted(album_rating)
+print("sorted list ",ssorted)
+
+def multList(l,multiplier):
+    
+    """
+    function documentation
+    multiply all the elements of the list l by the multiplier
+    """
+    reslist= [mult * multiplier for mult in l]
+    return reslist
+
+print(multList(album_rating,10))
+print (multList(album_rating, 100))
+print(5*album_rating)
+
+#function with variable number of objects in parameter
+def namesInList(*names):
+    """
+    put all the names in a list
+
+    """
+    retList=[]
+    for name in names:
+        retList.append(name)
+    return retList
+
+print(namesInList("ado","toto","fifi"))
