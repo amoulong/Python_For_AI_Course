@@ -93,3 +93,29 @@ def divideSmth(a,b):
 print(divideSmth(78,"smoth"))
 print(divideSmth(complex(2,10),2))
 print(divideSmth(98,25))
+
+#objects and classes
+class Circle (object):
+    #object is the parent class of circle
+    def __init__(self, radius, color):
+        #this is one of the special methods of a class
+        #self refers to the newly created instance of a class
+        self.radius=radius
+        self.color=color
+
+    def add_radius(self, r):
+        self.radius=self.radius+r
+
+class Rectangle(object):
+
+    def __init__(self, color, height, width):
+        self.color= color
+        self.height = height
+        self.width=width
+
+redCircle= Circle(10,"red")
+print (redCircle.color )
+print (redCircle.radius)
+
+#dir to get all the attributes of an object
+print (dir(redCircle))
