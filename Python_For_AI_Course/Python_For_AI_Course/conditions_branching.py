@@ -74,3 +74,22 @@ def namesInList(*names):
     return retList
 
 print(namesInList("ado","toto","fifi"))
+
+
+#exception handling
+def divideSmth(a,b):
+    """
+    the function divide b per a
+    """
+    c=None
+    try:
+        c=a/b
+    except :
+        print(" a could not be divided by b, check both types")
+    finally:
+        return c
+
+
+print(divideSmth(78,"smoth"))
+print(divideSmth(complex(2,10),2))
+print(divideSmth(98,25))
