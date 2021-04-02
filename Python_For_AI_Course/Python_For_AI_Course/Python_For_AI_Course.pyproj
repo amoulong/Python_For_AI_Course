@@ -27,6 +27,9 @@
     <Compile Include="expressions_Variables.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Files.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="list_tuples_dict.py">
       <SubType>Code</SubType>
     </Compile>
