@@ -22,3 +22,4 @@ with open("D:/HOMEWARE/Projets/Python_For_AI_Course/file.txt","r") as file1:
     #read the 15 first characters of a the next line
     fileContent=file1.readline(15)
     print(fileContent)
+
