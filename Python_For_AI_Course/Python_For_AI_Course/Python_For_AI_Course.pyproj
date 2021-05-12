@@ -33,6 +33,9 @@
     <Compile Include="list_tuples_dict.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="NumpyExp.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pandasExp.py">
       <SubType>Code</SubType>
     </Compile>
