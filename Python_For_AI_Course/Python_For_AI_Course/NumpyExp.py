@@ -69,3 +69,33 @@ import matplotlib.pyplot as plt
 #%matplotlib inline
 plt.plot(x,y)
 plt.show()
+
+
+#two dimensional numpy
+a=[[1,2,3.0],[8,2,3.0],[10,2,0.5]]
+a=np.array(a) #matrice 3x3
+print(a)
+print(a.ndim)
+print(a.size)
+print(a.shape)
+print(a[0][2])
+print(a[0,2])
+#matrice addition
+b=[[10,10,12.0],[1,1,1.0],[200,200,200]]
+print(a+b)
+#matrice multiplication
+print(np.dot(a,b))
+#multiplication elt par elt
+print(a*b)
+print(np.multiply(a,b))
+
+print("----")
+
+a=[[[1,2,3.0],[8,2,3.0],[10,2,0.5]],[[2,2,3.0],[6,2,3.0],[100,2,0.5]]]
+a=np.array(a) #2 matrices 3x3
+print(a)
+print(a.ndim)
+print(a.size)
+print(a.shape)
+print(a[0][1][2])
+print(a[0,1,2])
